@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omar Ashraf | VLSI & FPGA Engineer</title>
+
+<style>
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:#0f1115;color:#e6e6e6;line-height:1.6}
+
+header{position:sticky;top:0;background:#0b0d11;border-bottom:1px solid #222;padding:18px 8%;display:flex;justify-content:space-between;align-items:center;z-index:10}
+
+header h2{margin:0;font-weight:600;letter-spacing:.5px}
+
+nav a{color:#cfcfcf;margin-left:22px;text-decoration:none;font-size:14px;transition:.2s}
+nav a:hover{color:#fff}
+
+.hero{padding:90px 8%;display:flex;align-items:center;justify-content:space-between;gap:60px;background:linear-gradient(180deg,#12151b,#0f1115)}
+
+.hero-text{max-width:650px}
+
+.hero h1{font-size:44px;margin:0 0 10px 0}
+
+.hero h3{margin:0 0 18px 0;color:#9aa4b2;font-weight:500}
+
+.hero p{color:#b8c0cc}
+
+.hero img{width:260px;height:260px;border-radius:50%;object-fit:cover;border:4px solid #1e232b;box-shadow:0 10px 30px rgba(0,0,0,0.5)}
+
+button{padding:11px 22px;border:none;background:#2a63ff;color:white;border-radius:6px;font-size:14px;margin-top:18px;cursor:pointer}
+button:hover{background:#3b74ff}
+
+section{padding:70px 8%}
+
+h2{margin-top:0;font-size:28px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:25px}
+
+.card{background:#151922;border:1px solid #232833;border-radius:10px;padding:24px;transition:.25s}
+.card:hover{transform:translateY(-4px);border-color:#2a63ff}
+
+.card h3{margin-top:0}
+
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:15px}
+
+.skill{background:#1e2430;color:#cfd6e4;padding:7px 14px;border-radius:20px;font-size:12px;border:1px solid #2a2f3a}
+
+.contact p{margin:6px 0;color:#b8c0cc}
+
+footer{text-align:center;padding:30px;background:#0b0d11;border-top:1px solid #222;color:#9aa4b2}
+
+@media (max-width:900px){
+.hero{flex-direction:column;text-align:center}
+.hero img{width:200px;height:200px}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Omar Ashraf</h2>
+<nav>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#achievements">Achievements</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+<h1>Omar Ashraf</h1>
+<h3>VLSI • FPGA • Digital IC Design Engineer</h3>
+
+<p>
+Nanotechnology & Nanoelectronics Engineering student at Zewail City focusing on digital IC design, FPGA systems, and semiconductor technologies. Experienced in RTL design, FPGA implementation, and TCAD device simulation with strong interest in ASIC development and high‑performance digital architectures.
+</p>
+
+<button>Download CV</button>
+
+</div>
+
+<img src="profile.jpg" alt="Omar Ashraf profile photo">
+
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am a Nanotechnology and Nanoelectronics Engineering student specializing in VLSI design, FPGA development, and semiconductor technologies. My experience spans RTL architecture design, digital verification, FPGA implementation flows, and TCAD semiconductor simulations. I enjoy designing hardware systems from architectural concept through simulation, verification, and real hardware implementation.
+</p>
+
+<p><strong>Education:</strong> B.Sc. Nanotechnology & Nanoelectronics Engineering (VLSI Track) — Zewail City</p>
+</section>
+
+<section id="experience">
+<h2>Work Experience</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Electrical Maintenance Intern — Saint‑Gobain Egypt</h3>
+<p>
+Worked with the electrical maintenance team on MV/LV power distribution systems including transformers, switchgear, and backup generators. Assisted instrumentation engineers with sensor calibration, loop checks, and DCS monitoring while learning industrial safety practices such as LOTO procedures and PPE compliance.
+</p>
+</div>
+
+<div class="card">
+<h3>Math Teaching Assistant — Go Smart American Academy</h3>
+<p>
+Delivered mathematics instruction for grades 10–12, simplifying advanced concepts and improving student performance through personalized tutoring sessions. Designed lesson plans, quizzes, and assignments to enhance understanding and engagement.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+<h2>Key Engineering Projects</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>DSP48A1 Slice RTL Design</h3>
+<p>
+Designed the RTL architecture of the DSP48A1 slice used in Spartan‑6 FPGAs using Verilog. Implemented configurable pipeline stages and datapaths including pre‑adder, multiplier, and post‑adder blocks and verified functionality using a self‑checking testbench in QuestaSim.
+</p>
+</div>
+
+<div class="card">
+<h3>SPI Slave Controller with RAM</h3>
+<p>
+Developed an SPI slave controller using a finite‑state machine and integrated single‑port RAM for SPI read/write transactions. Compared Gray, One‑Hot, and Sequential FSM encodings and evaluated timing performance after synthesis in Vivado.
+</p>
+</div>
+
+<div class="card">
+<h3>Twin‑Well CMOS TCAD Simulation</h3>
+<p>
+Built a full CMOS fabrication process flow for a ~0.13 µm twin‑well technology node using Silvaco Athena TCAD. Investigated device geometry, mesh optimization, and fabrication trade‑offs through simulation and literature analysis.
+</p>
+</div>
+
+<div class="card">
+<h3>Self‑Balancing Robot</h3>
+<p>
+Implemented a self‑balancing robot using Arduino and MPU6050 IMU. Modeled inverted pendulum dynamics in MATLAB/Simulink and tuned a digital PID controller with complementary filtering for stable real‑time control.
+</p>
+</div>
+
+<div class="card">
+<h3>Voice‑Controlled Smart Robot</h3>
+<p>
+Developed a Wi‑Fi controlled robot using ESP8266 and a custom Android application built with MIT App Inventor. Integrated voice command recognition, ultrasonic obstacle detection, and PWM motor speed control.
+</p>
+</div>
+
+<div class="card">
+<h3>Simplified Processor Subsystem</h3>
+<p>
+Designed an Address Generation Module and ALU using SystemVerilog. Integrated RAM and optimized memory access using Gray code addressing and verified the design using ModelSim simulations.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="achievements">
+<h2>Achievements</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Fully Funded Scholarship — Zewail City</h3>
+<p>
+Awarded a full undergraduate scholarship covering all tuition fees based on academic excellence.
+</p>
+</div>
+
+<div class="card">
+<h3>Thanawya Aama Ranking</h3>
+<p>
+Ranked 6th among all students in Suez Governorate in the 2023 national Thanawya Aama examinations.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+
+<div class="skills">
+<span class="skill">Verilog</span>
+<span class="skill">SystemVerilog</span>
+<span class="skill">RTL Design</span>
+<span class="skill">FPGA Design</span>
+<span class="skill">Vivado</span>
+<span class="skill">QuestaSim</span>
+<span class="skill">Cadence Virtuoso</span>
+<span class="skill">SILVACO TCAD</span>
+<span class="skill">MATLAB / Simulink</span>
+<span class="skill">Python</span>
+<span class="skill">C / C++</span>
+<span class="skill">LTspice</span>
+<span class="skill">COMSOL</span>
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact</h2>
+
+<p><strong>Email:</strong> oomrash6@gmail.com</p>
+<p><strong>Phone:</strong> +20 1022090866</p>
+<p><strong>Location:</strong> Cairo, Egypt</p>
+<p><strong>LinkedIn:</strong> www.linkedin.com/in/omarashraff</p>
+
+
+</section>
+
+<footer>
+<p>© 2026 Omar Ashraf — Portfolio</p>
+</footer>
+
+</body>
+</html>
